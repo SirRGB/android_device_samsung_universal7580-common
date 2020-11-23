@@ -173,10 +173,6 @@ PRODUCT_PACKAGES += \
     libui_shim \
     libcutils_shim
 
-# TextClassifier
-PRODUCT_PACKAGES += \
-    textclassifier.bundle1
-
 # Touch features
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.samsung
