@@ -173,6 +173,9 @@ PRODUCT_PACKAGES += \
     libui_shim \
     libcutils_shim
 
+# Speed profile services and wifi-service to reduce RAM and storage
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
 # Touch features
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.samsung
