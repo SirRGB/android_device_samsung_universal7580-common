@@ -32,4 +32,13 @@
          does not work well, particularly with noisy touchscreens. Note that disabling it may
          increase the rate of unintentional unlocks. -->
     <bool name="config_lockscreenAntiFalsingClassifierEnabled">false</bool>
+
+    <!-- Whether to enable shifting of elements in the status bar and the navigation bar.
+         Should be enabled for OLED devices to reduce/prevent burn in on the status bar
+         and on the navigation bar and disabled for all other devices. -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
+
+    <!-- Amount of time in seconds to wait before shifting elements around when the burn in
+         protection is enabled for status bar and navigation bar -->
+    <integer name="config_shift_interval">30</integer>
 </resources>
